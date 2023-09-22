@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* HEADER SECTION */
+.header {
+    margin-top: 15px;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.logo h1 span:first-of-type {
+    padding: 0px 10px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    color: #D19C97;
+}
+
+/* .arrange-left{
+    float: left;
+} */
+
+.wid-25 {
+    width: 25%;
+}
+
+.wid-50 {
+    width: 50%;
+}
+
+.searchProduct input {
+    width: 70%;
+    height: 35px;
+    /* margin-top: 5px; */
+    border-radius: 0;
+    padding: 5px;
+    font-size: 17px;
+    color: #666;
+    border: 1px solid #ddd;
+    border-right: none;
+}
+
+.searchProduct input:focus {
+    outline: none;
+}
+
+
+.searchProduct button {
+    height: 47px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    margin-left: -4px;
+    border-left: none;
+    font-size: 16px;
+    color: #D19C97;
+    background-color: #fff;
+}
+
+.selectedProduct {
+    text-align: right;
+}
+
+.common-btn {
+    height: 47px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    background-color: #fff;
+    min-width: 50px;
+    text-align: center;
+    color: #D19C97;
+}
+
+.common-btn span {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+/* HERO SECTION */
+.next-row {
+    clear: both;
+    display: flex;
+
+}
+
+.banner-wrapper {
+    border-top: 1px solid #ddd;
+}
+
+.list-header{
+    background-color: #D19C97;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-header h4 {
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.list-header span {
+    float: right;
+    padding: 19px;
+}
+
+.banner-area ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid #ddd;
+}
+
+.banner-area ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 30px;
+}
+
+.banner-area ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* 2nd SECTION OF HERO AREA */
+.wid-75 {
+    width: 75%;
+}
+
+.shop-menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.shop-menu {
+    display: flex;
+}
+.shop-menu ul.dropdown {
+    display: none;
+}
+.shop-menu ul li {
+    /* min-width: 100px ; */
+    padding: 20px; 
+}
+.shop-menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.shop-menu ul li a:hover {
+    /* text-decoration: none; */
+    color: #D19C97;
+}
+
+.left-menu-list {
+    /* padding: 0; */
+    width: 70%;
+    /* max-width: 50%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-menu-list {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdown-head:hover ul.dropdown {
+    display: block;
+}
+
+.dropdown-head ul.dropdown {
+    display: none;
+    border: 1px solid #ddd;
+    position: absolute;
+    box-shadow: #ddd 1px 1px 10px;
+}
