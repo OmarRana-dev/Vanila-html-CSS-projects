@@ -202,7 +202,7 @@ body, html {
     height: 400px;
     float: left;
     width: 100%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .hero-banner img {
@@ -222,6 +222,7 @@ body, html {
     justify-content: center;
     flex-direction: column;
     color: #fff;
+    background-color: #D19C97;
 }
 .banner-text h4 {
     margin: 0;
@@ -237,5 +238,31 @@ body, html {
     background-color: #fff;
     color: #000;
     padding: 10px 15px;
+    text-decoration: none;
 }
 
+
+/* FEATURES SECTION */
+
+.feature-area {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.product-features {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.product-features i {
+    font-size: x-large;
+    color: #D19C97;
+}
