@@ -97,7 +97,6 @@ body, html {
 .next-row {
     clear: both;
     display: flex;
-
 }
 
 .banner-wrapper {
@@ -202,7 +201,6 @@ body, html {
     height: 400px;
     float: left;
     width: 100%;
-    /* margin-left: 10px; */
 }
 
 .hero-banner img {
@@ -265,4 +263,79 @@ body, html {
 .product-features i {
     font-size: x-large;
     color: #D19C97;
+}
+
+/* CATEGORY AREA */
+
+.wid-33 {
+    width: 33.3%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.category-item {
+    /* border: 1px solid #ccc; */
+    padding: 30px;
+    float: right;
+}
+
+.category-img img{
+    width: 100%;
+
+}
+
+.category-type h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;
+    padding: 0px 20px 20px 10px;
+}
+
+.category-area {
+    gap: 20px;
+}
+
+/* OFFER'S SECTION */
+.offer-banner {
+    background-color: #EDF1FF;
+    margin-bottom: 50px;
+    position: relative;
+}
+.offer-banner img {
+    position: absolute;
+    max-width: 50%;
+    max-height: 90%;
+    bottom: 0;
+    z-index: 100;
+    float: left;
+}
+.flip-direction {
+    transform: scaleX(-1);
+}
+.offer-text {
+    text-align: right;
+    padding: 40px;
+}
+.offer-text h5 {
+    color: #D19C97;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 400;
+}
+.offer-text h3 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.offer-text button {
+    padding: 12px 25px;
+    color: #D19C97;
+    border: 1px solid #D19C97;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.offer-section {
+    gap: 20px;
 }
