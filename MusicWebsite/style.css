@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-width: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+button {
+    padding: 15px 20px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Navigation Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.text_container {
+    max-width: 1100px;
+}
+header {
+    background-color: var(--purple300);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 10px 0;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+
+}
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+nav ul li {
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+nav ul li:hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+    
+}
+
+
+/* Hero SEction */
+.hero_section {
+    background-image: url(/projectsfiles/MusicWebsite/img/Frame1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+}
+.hero_section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero_section h1 {
+    font-size: 96px;
+}
+.hero_section h3 {
+    font-size: 32px;
+} 
+
+/* Music section */
+.music_section {
+    padding-top: 50px;
+    background: var(--purple500);
+}
+.music_section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.ipad_img {
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+.music_section .container h2 {
+    font-size: 36px;
+}
+.music_section .container h3 {
+    font-size: 24px;
+}
+.music_section .container p {
+    color: whitesmoke;   
+}
+.primary_btn {
+    background-color: var(--red600);
+    color: white;
+    font-size: large;
+}
+
+/* Video Section */
+.video_section {
+    padding-top: 500px;
+    height: 1450px;
+}
+.video_section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+.v-btn {
+    background-color: var(--purple300);
+}
+
+/* Video Section 2 */
+.video_section2 {
+    height: 100vh;
+    background-image: url(/projectsfiles/MusicWebsite/img/Promo-.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+
+    text-align: center;
+}
+
+.video_section2 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    padding-top: 300px;
+}
+
+/* Gift Section */
+.gift_container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 100px 0;
+}
+
+.gift_content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 500;
+}
+.for_line {
+    height: 2px;
+    border-top: 2px solid #9E9E9E;
+}
+.gift_btn {
+    align-self: flex-start;
+    background-color: var(--purple300);
+}
+
+/* Footer Section*/
+.about_us_section {
+    background-color: var(--purple600);
+    color: white;
+    padding: 100px 0;
+}
+
+.about_us_section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    /* justify-content: space-between; */
+}
+
+.list_items {
+    width: 300px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.list_items h3 {
+    border-bottom: 2px solid white;
+}
+
+/* Copyright Section */
+.copy_rights {
+    text-align: center;
+    padding: 15px 0;
+    background: var(--purple300);
+    color: white;
+}
